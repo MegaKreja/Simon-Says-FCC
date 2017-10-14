@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  background: url("http://www.technocrazed.com/wp-content/uploads/2015/12/Windows-XP-wallpaper-2.jpg");
+  background-size: cover;
+  height: 100vh;
+  -webkit-user-select: none;     
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+#logo {
+  text-align: center;
+}
+#logo img {
+  width: 20%;
+}
+#simon {
+  margin-top: 80px;
+  text-align: center;
+}
+#row2 {
+  margin-top: 15px;
+}
+#red {
+  background-color: #F45325;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-right: 15px;
+}
+#red:active {
+  filter: brightness(150%);
+}
+#green {
+  background-color: #81BD06;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+#green:active {
+  filter: brightness(150%);
+}
+#blue {
+  background-color: #05A5EF;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-right: 15px;
+}
+#blue:active {
+  filter: brightness(150%);
+}
+#yellow {
+  background-color: #FFBA07;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+#yellow:active {
+  filter: brightness(150%);
+}
+#controls {
+/*   margin-top: 50px; */
+  background-color: #225EDA;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+/*   border-top: 5px solid #3683E0; */
+}
+#start img {
+  width: 20%;
+  padding-right: 4px;
+}
+#start{
+  color: #fff;
+  width: 8%;
+  background-color: #44B446;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 35px;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+/*   border-top: 5px solid #82B27F; */
+}
+#start:hover {
+  background-color: #48C547;
+}
+#start:active {
+  background-color: #188A18;
+}
+#strict {
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 30px;
+  width: 20%;
+  text-align: center;
+  background-color: #3980F4;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+#strict:active {
+  background-color: #1C4FB8;
+}
+#display{
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  width: 20%;
+  text-align: center;
+  background-color: #3980F4;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.light {
+  filter: brightness(150%);
+}
